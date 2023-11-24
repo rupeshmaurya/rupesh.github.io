@@ -1,0 +1,105 @@
+:root {
+  --pr-choco: #902109;
+}
+.navbar {
+  background: var(--pr-choco);
+}
+.logo {
+  filter: drop-shadow(3px 4px rgb(5, 5, 5));
+}
+.user-link {
+  float: right;
+  color: var(--pr-choco);
+}
+.user-link:hover {
+  color: rgb(0, 105, 190);
+
+  filter: drop-shadow(2px 2px 10px rgb(0, 129, 235));
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(61, 61, 61);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+.search {
+  background: rgba(255, 230, 230, 0.7);
+  width: 50vw;
+  color: white;
+  border: none;
+}
+.search:focus {
+  outline: none;
+
+  color: var(--pr-choco);
+}
+.search::placeholder {
+  color: whitesmoke;
+}
+.dropdown-item {
+  transition: all 1s;
+  width: 200px;
+}
+
+.dropdown-item:hover {
+  background: var(--pr-choco);
+  color: whitesmoke;
+  letter-spacing: 5px;
+  filter: drop-shadow(2px 2px 5px rgb(15, 15, 15));
+  scale: 1.1;
+  font-weight: 700;
+}
+.const {
+  margin: 50px;
+  margin-left: 150px;
+  filter: drop-shadow(10px 10px 10px black);
+  background-color: rgb(255, 255, 255);
+  width: 60vw;
+  height: 40vh;
+  transition: all 1s;
+  left:-1000px;
+  
+  position: relative;
+  scale: 0.2;
+
+}
+.node{
+  margin: 5px;
+  padding: 1px;
+}
+.star{
+  width: 24px;
+}
+.side-img{
+  width: 300px;
+}
+.page{
+  min-height: 100vh;
+}
+.card-img-top{
+
+  filter: drop-shadow(5px 5px 5px black);
+  z-index: 100;
+}
+
+.active{
+  filter: drop-shadow(3px 3px 4px rgb(247, 227, 6));
+  color:var(--pr-choco);
+}
